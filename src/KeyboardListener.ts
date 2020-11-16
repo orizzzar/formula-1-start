@@ -50,6 +50,7 @@ class KeyboardListener {
      */
     private keyDown = (ev: KeyboardEvent) => {
         this.keyCodeStates[ev.keyCode] = true;
+        console.log(ev.keyCode + " pressed");
     }
 
     /*
